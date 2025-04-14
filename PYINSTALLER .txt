@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --icon=Icon.png --add-data "Button.mp3;." --add-data "Click.mp3;." --add-data "Hover.mp3;." --add-data "icon.png;." --add-data "Wallpaper.png;." --add-data "Button.png;." VocalScrub.py

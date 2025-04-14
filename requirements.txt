@@ -1,0 +1,14 @@
+# Requirements for SpeakSee Voice Search Application
+# Python package dependencies
+
+pyautogui
+Pillow==9.5.0           # Image processing (PIL)
+pyttsx3==2.90          # Text-to-speech engine
+SpeechRecognition==3.10.0  # Voice recognition
+screeninfo==0.8.1       # Multi-monitor support
+pygame==2.5.2          # Sound/music playback
+
+# Optional (may require system dependencies):
+# pyaudio==0.2.14       # Microphone access (install manually if needed)
+
+# Note: tkinter is included in Python standard library
