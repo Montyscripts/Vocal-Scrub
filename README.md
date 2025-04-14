@@ -1,13 +1,31 @@
+Python Installation Instructions (for those missing Python)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+If you see an error that Python is not installed, follow these steps:
+
+Download Python 3.10.0
+
+Go to the official Python website.
+
+Download Python 3.10.0 (this version is required for the script to work properly).
+
+Install Python:
+
+Run the downloaded installer.
+
+Important: Make sure to check the option to add Python to your PATH during installation.
+
+Finish the Installation:
+
+Follow the on-screen instructions to complete the installation.
+
+After installing Python 3.10.0, run the Install.bat again to continue setting up Vocal-Scrub.
+
+Check- Microphone (built-in or external)
+
+Check - Internet connection (for voice recognition)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 VocalScrub Installation Guide 🎤⌨️
-System Requirements
-Windows 10/11 (64-bit recommended)
-
-Python 3.10.0 
-
-Microphone (built-in or external)
-
-Internet connection (for voice recognition)
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Installation Steps
 1️⃣ Download the Package
 
@@ -51,8 +69,9 @@ Clicking the main button
 Speaking naturally into your microphone
 
 Click the button again to stop
-
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Key Features
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎙️ Voice Typing - Dictate text anywhere with proper formatting
 
 ✂️ Voice Commands:
@@ -74,8 +93,9 @@ Change wallpapers, icons, and colors
 Adjust sound effects
 
 Toggle dark mode
-
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Troubleshooting
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ❗ If you encounter issues:
 
 Ensure all files are in the same folder
