@@ -19,10 +19,6 @@ Finish the Installation:
 Follow the on-screen instructions to complete the installation.
 
 After installing Python 3.10.0, run the Install.bat again to continue setting up Vocal-Scrub.
-
-Check- Microphone (built-in or external)
-
-Check - Internet connection (for voice recognition)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 VocalScrub Installation Guide 🎤⌨️
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
