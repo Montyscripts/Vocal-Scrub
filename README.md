@@ -109,3 +109,13 @@ Check internet connection (required for voice recognition)
 
 Uninstallation
 Simply run the uninstall.bat folder to remove all components
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+📝 Notes 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requires an active internet connection for voice recognition
+
+Works best with Windows 10/11
+
+All sound/image files should be placed in the project directory
+
+Created by Caleb W. Broussard | Version 1.5
