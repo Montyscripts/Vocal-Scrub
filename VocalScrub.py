@@ -541,7 +541,7 @@ if os.path.exists(background_path):
 menu_frame = tk.Frame(root, bg='#000000', bd=0)
 menu_frame.place(x=-120, y=0, width=120, height=220)  # Reduced height
 
-# Menu Buttons (removed "Type" button and extra spacing)
+# Menu Buttons 
 button_pady = 5
 menu_buttons = [
     ("Rules", show_rules),
@@ -566,8 +566,8 @@ for text, command in menu_buttons:
 style = ttk.Style()
 style.configure('Small.TButton', 
                borderwidth=1, 
-               padding=(1, 2),
-               font=('Helvetica', 8))
+               padding=(1, 1),
+               font=('Helvetica', 9))
 
 # Main Button Setup
 image_path = resource_path('Button.png')
@@ -591,7 +591,7 @@ menu_button = ttk.Button(
     text="☰", 
     command=toggle_menu, 
     style='Small.TButton', 
-    width=4
+    width=2
 )
 menu_button.place(relx=0, rely=0, x=10, y=10)
 
@@ -606,7 +606,7 @@ listening_indicator_bottom_right.place(relx=1.0, rely=1.0, x=-25, y=-25)
 listening_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='black', bd=1, relief='solid')
 listening_indicator_bottom_left.place(relx=0, rely=1.0, x=10, y=-25)
 
-# Active indicators (blue with thick black outline)
+# Active indicators (bisque with thick black outline)
 active_indicator_top_right = tk.Label(root, width=2, height=1, bg='bisque', bd=2, relief='solid')
 active_indicator_top_right.place(relx=1.0, rely=0, x=-25, y=10)
 active_indicator_top_right.lower(listening_indicator_top_right)
