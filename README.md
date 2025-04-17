@@ -14,7 +14,7 @@ IMPORTANT: ✅ Check the box that says “Add Python to PATH”
 Click “Install Now” and let it do its thing
 
 ✅ Step 3: Re-run the Installer
-Once Python is installed, run Scrub_Install.bat again to keep setup rolling.
+Once Python is installed, run VocalScrub_Install.bat again to keep setup rolling.
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
