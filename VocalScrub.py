@@ -92,7 +92,7 @@ def toggle_mute():
 def on_enter(event):
     """Handle mouse enter events for main button"""
     if event.widget == button_label:
-        event.widget.config(bg='blue')
+        event.widget.config(bg='black')
 
 def on_leave(event):
     """Handle mouse leave events for main button"""
@@ -451,7 +451,7 @@ def animate_menu(step, direction):
     global menu_animation_id, menu_visible
     
     menu_width = 120
-    menu_height = 200  # Reduced height to remove empty space
+    menu_height = 217  # Reduced height to remove empty space
     
     if direction == "in":
         new_x = -menu_width + (step * 12)
@@ -538,11 +538,11 @@ if os.path.exists(background_path):
         print(f"Failed to load background image: {e}")
 
 # Menu Frame
-menu_frame = tk.Frame(root, bg='#333333', bd=0)
-menu_frame.place(x=-120, y=0, width=120, height=200)  # Reduced height
+menu_frame = tk.Frame(root, bg='#000000', bd=0)
+menu_frame.place(x=-120, y=0, width=120, height=220)  # Reduced height
 
 # Menu Buttons (removed "Type" button and extra spacing)
-button_pady = 2
+button_pady = 5
 menu_buttons = [
     ("Rules", show_rules),
     ("Colors", change_indicator_colors),
@@ -566,8 +566,8 @@ for text, command in menu_buttons:
 style = ttk.Style()
 style.configure('Small.TButton', 
                borderwidth=1, 
-               padding=(1, 3),
-               font=('Helvetica', 9))
+               padding=(1, 2),
+               font=('Helvetica', 8))
 
 # Main Button Setup
 image_path = resource_path('Button.png')
@@ -607,15 +607,15 @@ listening_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='black', 
 listening_indicator_bottom_left.place(relx=0, rely=1.0, x=10, y=-25)
 
 # Active indicators (blue with thick black outline)
-active_indicator_top_right = tk.Label(root, width=2, height=1, bg='gray', bd=2, relief='solid')
+active_indicator_top_right = tk.Label(root, width=2, height=1, bg='bisque', bd=2, relief='solid')
 active_indicator_top_right.place(relx=1.0, rely=0, x=-25, y=10)
 active_indicator_top_right.lower(listening_indicator_top_right)
 
-active_indicator_bottom_right = tk.Label(root, width=2, height=1, bg='gray', bd=2, relief='solid')
+active_indicator_bottom_right = tk.Label(root, width=2, height=1, bg='bisque', bd=2, relief='solid')
 active_indicator_bottom_right.place(relx=1.0, rely=1.0, x=-25, y=-25)
 active_indicator_bottom_right.lower(listening_indicator_bottom_right)
 
-active_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='gray', bd=2, relief='solid')
+active_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='bisque', bd=2, relief='solid')
 active_indicator_bottom_left.place(relx=0, rely=1.0, x=10, y=-25)
 active_indicator_bottom_left.lower(listening_indicator_bottom_left)
 
