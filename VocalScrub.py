@@ -591,7 +591,7 @@ menu_button = ttk.Button(
     text="☰", 
     command=toggle_menu, 
     style='Small.TButton', 
-    width=3
+    width=4
 )
 menu_button.place(relx=0, rely=0, x=10, y=10)
 
