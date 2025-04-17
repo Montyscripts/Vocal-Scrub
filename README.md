@@ -114,4 +114,4 @@ Works best with Windows 10/11
 
 All sound/image files should be placed in the project directory
 
-Created by Caleb W. Broussard | Version 1.5
+Created with stardust and code by Caleb W. Broussard VocalScrub | Version 1.0
