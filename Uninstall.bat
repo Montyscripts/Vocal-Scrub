@@ -27,11 +27,11 @@ pip cache purge
 echo.
 
 echo.
-echo 💀 Step 4: Killing VocalScrub.exe if running...
+echo 💀 Step 3: Killing VocalScrub.exe if running...
 taskkill /f /im VocalScrub.exe >nul 2>&1
 
 echo.
-echo 🗂️ Step 5: Preparing to delete VocalScrub folder...
+echo 🗂️ Step 4: Preparing to delete VocalScrub folder...
 
 REM Create a temporary self-deletion script
 set "DELETE_SCRIPT=%temp%\delete_me.bat"
@@ -42,7 +42,7 @@ echo del "%%~f0" >> "%DELETE_SCRIPT%"
 echo exit >> "%DELETE_SCRIPT%"
 
 echo.
-echo 🧨 Step 6: Self-destructing script...
+echo 🧨 Step 5: Self-destructing script...
 call "%DELETE_SCRIPT%"
 
 exit
