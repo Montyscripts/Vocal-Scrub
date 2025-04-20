@@ -27,28 +27,28 @@ Dictate, Scrub, and Control Text—Voice Typing Made Easy
 
 ![Step1-Download-ezgif com-optimize](https://github.com/user-attachments/assets/ccdbe737-89b5-4db5-9d2d-23360ab4f1fd)
 
-Download the VocalScrub folder containing:
+✅ Download the VocalScrub folder containing:
 
-VocalScrub.py (main program)
+✔ VocalScrub.py (main program)
 
-VocalScrub_Installer.bat (automatic installer)
+✔ VocalScrub_Installer.bat (automatic installer)
 
-Support files (Icon.png, Button.mp3, Wallpaper.png)
+✔ Support files (Icon.png, Button.mp3, Wallpaper.png)
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 2️⃣ Run the Installer
 
-Double-click VocalScrub_Installer.bat
+✅ Double-click VocalScrub_Installer.bat
 
-Click "Yes" if prompted for admin rights
+✔ Click "Yes" if prompted for admin rights
 
-The installer will:
+✔ The installer will:
 
-Check install of Python 3.10.0 
+✔ Check install of Python 3.10.0 
 
-Set up all required dependencies
+✔ Set up all required dependencies
 
-Build the VocalScrub.exe executable
+✔ Build the VocalScrub.exe executable
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ![Step 2 - Install](https://github.com/user-attachments/assets/75a57b0a-43ce-4569-825a-faf1c11267bb)
@@ -56,11 +56,11 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 3️⃣ Launch the Application
 
-After installation completes:
+✅ After installation completes:
 
-Navigate to the dist folder
+✔ Navigate to the dist folder
 
-Double-click VocalScrub.exe to start
+✔ Double-click VocalScrub.exe to start
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Using VocalScrub - Setup 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
