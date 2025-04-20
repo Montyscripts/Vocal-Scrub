@@ -25,6 +25,8 @@ Dictate, Scrub, and Control Text—Voice Typing Made Easy
 
 1️⃣ Download the Package
 
+![Step1-Download-ezgif com-optimize](https://github.com/user-attachments/assets/ccdbe737-89b5-4db5-9d2d-23360ab4f1fd)
+
 Download the VocalScrub folder containing:
 
 VocalScrub.py (main program)
@@ -46,7 +48,11 @@ Check install of Python 3.10.0
 Set up all required dependencies
 
 Build the VocalScrub.exe executable
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+![Step 2 - Install](https://github.com/user-attachments/assets/75a57b0a-43ce-4569-825a-faf1c11267bb)
+ 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 3️⃣ Launch the Application
 
 After installation completes:
@@ -55,8 +61,11 @@ Navigate to the dist folder
 
 Double-click VocalScrub.exe to start
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-First-Time Setup
+Using VocalScrub - Setup 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![Step 3 - How2Use](https://github.com/user-attachments/assets/3f67e01c-40f8-43dc-9701-aa292d4aa729)
+
 Grant microphone permissions if prompted
 
 Test voice typing by:
