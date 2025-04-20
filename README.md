@@ -35,6 +35,7 @@ VocalScrub_Installer.bat (automatic installer)
 
 Support files (Icon.png, Button.mp3, Wallpaper.png)
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 2️⃣ Run the Installer
 
 Double-click VocalScrub_Installer.bat
